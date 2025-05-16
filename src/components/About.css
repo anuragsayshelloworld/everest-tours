@@ -1,0 +1,40 @@
+.about-us {
+  padding: 5rem 2rem;
+  background-color: #f9f9f9;
+  color: #001f3f;
+  text-align: center;
+}
+
+.about-us .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-us h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-us p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.about-us .highlights {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.about-us .highlights li {
+  font-size: 1.2rem;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  min-width: 180px;
+}
